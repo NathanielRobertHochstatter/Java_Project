@@ -15,7 +15,7 @@ public class Books {
             Class.forName("com.mysql.cj.jdbc.Driver");
             System.out.println("Driver loaded");
             connection = DriverManager.getConnection("jdbc:mysql://localhost/javabook",
-                    "root", "Nathaniel18!"); // Need to make sure you have this line of code changed to wherever you put the book.sql file
+                    "root", "root"); // Need to make sure you have this line of code changed to wherever you put the book.sql file
         } catch (Exception ex) {
             ex.printStackTrace();
         }
